@@ -1,13 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bungee&family=Dosis:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
-  background-color: white;
+  background-color: whitesmoke;
   font-size: 18px;
-  color: rgb(32, 74, 60);
+  font-family: "Roboto", sans-serif;
+  color: rgb(49, 62, 78);
+  margin: 50px 300px 50px 300px;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Bungee", sans-serif;
+}
+
+table, th, td {
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 16px;
 }
 
 @media screen and (max-width: 768px) {
   body {
-    background-color: rgb(255, 255, 255);
+    background-color: whitesmoke;
     font-size: 16px;
-    color: rgb(78, 27, 59);
+    font-family: "Roboto", sans-serif;  
+    color: rgb(27, 46, 69);
+    margin: 10px 20px 10px 20px;
+  }
+  h1,h2,h3,h4,h5,h6 {
+    font-family: "Bungee", sans-serif;
+  }
+  table, th, td {
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 16px;
   }
 }
